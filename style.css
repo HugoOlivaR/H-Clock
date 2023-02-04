@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    background: #10131c;
+}
+
+p{
+    user-select: none;
+    font-family: 'digital';
+    color: #2dfc52;
+    filter:drop-shadow(0 0 2px #2dfc52) drop-shadow(0 0 15px #2dfc52);
+
+}
+
+
+.divreloj{
+    height: 70px;
+    width: 70px;
+    background-color: #212532;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease 1s;
+    border-radius: 10px;
+}
+
+.divreloj.desactivado{
+    box-shadow: 0 0 10px 3px #5b5e69;
+}
+
+.divreloj.desactivado:hover{
+    transition: ease 0.5s;
+    box-shadow: 0 0 50px 0.5px #2dfc52;
+}
+
+.divreloj.activo{
+    box-shadow:inset 0 0 5px 2px #5b5e69;
+}
+
+.divreloj.activo:hover{
+    box-shadow:inset 0 0 15px 3px #5b5e69;
+}
+
+
+.reloj{
+    font-size: 0px;
+    transition: ease 0.3s;
+}
+
+.icono{
+    position: absolute;
+    transition: ease 0.3s;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+}
+
+
+@font-face {
+    font-family: 'digital';
+    src: url('DS-DIGI.TTF') format('truetype');
+}
