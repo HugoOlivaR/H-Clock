@@ -5,7 +5,6 @@ function reloj(){
     minuto=fecha.getMinutes(); //minuto actual
     segundo=fecha.getSeconds(); //segundo actual
 
-
     if (hora<10) { //dos cifras para la hora
         hora="0"+hora;
     }
