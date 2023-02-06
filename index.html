@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icono.png">
+    <title>H-Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body id="body">
+
+
+    <div class="divreloj desactivado oscuro" id="divreloj" onclick="activacion();tamaño()">
+        <ion-icon name="time-outline" class="icono oscuro" id="icono"></ion-icon>
+        <p id="reloj" class="reloj oscuro"></p>
+    </div>
+
+    <div class="alerta oscuro" id="alerta">
+        
+        <p class="textoalerta oscuro"> Try pressing Space Bar!!!</p>
+
+
+        <a class="cerrar" onclick="funcioncerrar()" id="cerrar"><ion-icon name="close-outline"></ion-icon></a>
+
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
