@@ -1,6 +1,4 @@
 <h1>Simply Digital Clock</h1>
-
-<h2>Link</h2>
 Project Link: https://hugoolivar.github.io/H-Clock/
 
 ## Preview
